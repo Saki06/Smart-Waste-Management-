@@ -1,0 +1,42 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "PlatformIO: Build ESP32",
+      "type": "shell",
+      "command": "platformio run --environment esp32dev",
+      "options": {
+        "cwd": "${workspaceFolder}/hardware"
+      },
+      "problemMatcher": [
+        "$platformio"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "PlatformIO: Upload ESP32",
+      "type": "shell",
+      "command": "platformio run --target upload --environment esp32dev",
+      "options": {
+        "cwd": "${workspaceFolder}/hardware"
+      },
+      "problemMatcher": [
+        "$platformio"
+      ],
+      "group": "none"
+    },
+    {
+      "label": "PlatformIO: Monitor ESP32",
+      "type": "shell",
+      "command": "platformio device monitor --environment esp32dev",
+      "options": {
+        "cwd": "${workspaceFolder}/hardware"
+      },
+      "isBackground": true,
+      "problemMatcher": []
+    }
+  ]
+}

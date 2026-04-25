@@ -1,0 +1,26 @@
+# PlatformIO
+.pio
+
+# Node.js
+node_modules/
+dist/
+*.log
+
+# Environment secrets
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+
+# Python & ML Models
+__pycache__/
+*.pyc
+venv/
+env/
+.venv/
+*.pkl
+*.csv
