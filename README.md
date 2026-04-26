@@ -17,7 +17,6 @@ A comprehensive, full-stack IoT Smart Waste Management System. This project inte
 - **Interactive Dashboard**: Built with React and Vite. Features interactive charts (Recharts), real-time updates via Socket.IO, and a polished UI using Tailwind CSS.
 - **Geospatial Mapping**: Live tracking of bin locations and statuses across the campus using Leaflet maps.
 - **Environmental Hazard Detection**: specialized components for identifying mosquito breeding risks (wet waste) and suspicious activities.
-- **AI Chatbot Assistant**: Integrated with Gemini AI for intelligent querying about waste management data.
 - **OTA Updates**: Over-The-Air firmware updates for the ESP32 hardware, ensuring seamless maintenance.
 
 ## 🏗️ Architecture & Technology Stack
