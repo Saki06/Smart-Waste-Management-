@@ -65,8 +65,7 @@ A comprehensive, full-stack IoT Smart Waste Management System. This project inte
    npm install
    # Create a .env file with your MongoDB URI, MQTT Broker details, and Gemini API Key
    npm start
-   # To start the MQTT subscriber separately
-   npm run subscriber
+  
    ```
 
 3. **Machine Learning Setup**
@@ -94,6 +93,17 @@ A comprehensive, full-stack IoT Smart Waste Management System. This project inte
 - **Analytics View**: Deep dive into the ML predictions, viewing estimated times until bins are full based on historical usage patterns.
 - **Mosquito Panel**: Monitors moisture levels in bins to alert authorities about potential mosquito breeding grounds.
 - **Suspicious Activity**: Logs and flags unexpected changes in bin levels (e.g., sudden massive drops or anomalies).
+
+  
+## 👥 Team Members
+
+**Presented By: Group 2026_01**
+- Madhuwarsha T - IT22364760
+- S.K. Fernando - IT22129680
+- I.M.M. Mujahid - IT22266750
+- Sakiththiyan T - IT22319074
+
+---
 
 ---
 *Built for smarter, cleaner, and more efficient campuses.*
